@@ -123,7 +123,7 @@ function dateFormat (date, fstr, utc) {
 }
 
 function setSunSet() {
-	times = SunCalc.getTimes(new Date(), 45.1215545, 7.9316955);
+	times = SunCalc.getTimes(new Date(), 45.1215545, 7.931695);
 	d = new Date();
 	d.setHours(times.sunset.getHours());
 	d.setMinutes(times.sunset.getMinutes());
